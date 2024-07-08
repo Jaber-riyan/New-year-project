@@ -45,15 +45,41 @@
 }
 /* header styles end  */
 
-
-
-
-
 /* 65% section styles */
 .section-container-65-percent {
   width: 802.9px;
-  height: 806px;
-  border: 1px solid red;
+  height: 750px;
   margin: 0 auto;
+  margin-bottom: 100px;
 }
+.content-of-65-persent
+{
+    text-align: center;
+}
+.content-of-65-persent h1 {
+  font-size: 70px;
+  color: red;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.content-of-65-persent p {
+  font-size: 24px;
+  font-weight: 500;
+  color: red;
+  margin-bottom: 20px;
+}
+.content-of-65-persent h2 {
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 0%;
+  margin-bottom: 30px;
+}
+/* .new-year-ph {
+  background-image: url("../images/newYearPhoto.png");
+  max-width: 802.9px;
+  max-height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
 /* 65% section styles end */
