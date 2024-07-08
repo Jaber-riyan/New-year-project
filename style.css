@@ -4,7 +4,9 @@
   margin: 0;
   padding: 0;
 }
-
+a {
+  text-decoration: none;
+}
 .inter-family {
   font-family: "Inter", sans-serif;
 }
@@ -292,3 +294,119 @@ button {
   margin-bottom: 20px;
 }
 /* special gift section styles end */
+
+/* message section styles  */
+.message-section {
+  width: 1320px;
+  height: 630px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 120px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  /* text-align: center; */
+}
+.message-content {
+  width: 1300px;
+  height: 616px;
+  text-align: center;
+  /* margin: auto 0; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.message-content img {
+  margin-bottom: 30px;
+}
+.message-content h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.message-content p {
+  margin-bottom: 40px;
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+}
+.message-content input[type="text"] {
+  width: 400px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background: rgb(255, 255, 255);
+  border: none;
+  height: 60px;
+  padding: 15px;
+  font-size: 20px;
+  color: grey;
+}
+.message-content button {
+  width: 200px;
+  height: 60px;
+  border: none;
+  padding: 15px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: rgb(255, 0, 0);
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+/* message section styles end */
+
+/* footer section styles  */
+footer {
+  width: 1498px;
+  height: 640px;
+  background-color: black;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.address-social-phone a {
+  color: white;
+}
+.address-social-phone {
+  width: 1450px;
+  height: 580px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.address-social-phone a img {
+  width: 60.5px;
+  height: 60.5px;
+  margin-left: 10px;
+}
+.address-social-phone p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.unsubscribe-reserved {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.unsubscribe-reserved p {
+  margin-left: 90px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.unsubscribe-reserved button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  padding: 15px;
+  border-radius: 50px;
+  background-color: rgb(255, 0, 0);
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  margin-right: 180px;
+}
+.unsubscribe-reserved button a {
+  color: white;
+}
+/* footer section styles end  */
