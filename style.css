@@ -45,6 +45,11 @@
 }
 /* header styles end  */
 
+
+
+
+
+
 /* 65% section styles */
 .section-container-65-percent {
   width: 802.9px;
@@ -52,9 +57,8 @@
   margin: 0 auto;
   margin-bottom: 100px;
 }
-.content-of-65-persent
-{
-    text-align: center;
+.content-of-65-persent {
+  text-align: center;
 }
 .content-of-65-persent h1 {
   font-size: 70px;
@@ -74,12 +78,57 @@
   letter-spacing: 0%;
   margin-bottom: 30px;
 }
-/* .new-year-ph {
-  background-image: url("../images/newYearPhoto.png");
-  max-width: 802.9px;
-  max-height: 500px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-} */
 /* 65% section styles end */
+
+
+
+
+
+
+
+/* welcome party styles */
+
+.welcome-party {
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  background-image: url("/images/Vectorrr.png");
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcome-party img {
+  width: 319.83px;
+  height: 464.66px;
+}
+.welcome-party h2 {
+  font-size: 64px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.welcome-party p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.welcome-party button {
+  width: 140px;
+  height: 50px;
+  background-color: #b65c09;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+}
+.welcome-party button:hover {
+  box-shadow: 0 3px 10px 10px #693403;
+}
+/* welcome party styles end */
